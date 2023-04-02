@@ -13,7 +13,8 @@ header{
     background-image: url("aaccce_6cec9fee77224ba6bbe25d002fbfbeb4_mv2.png");
     background-size: cover ;
     border-radius: 30px 30px 30px 30px;
-
+    width: 25vw;
+    height: 11vw;
     padding: 0px 0px 0px 20px;
     position: fixed;
     z-index: 1;
@@ -67,10 +68,17 @@ div:not(.page-wrapper):not(#zen-supporting):not(.wrapper):not(.extra1):not(.extr
 }
 .archives, .resources{
     padding: 1vw 1vw 0vw 1vw;
-    width:
-    margin:
 }
 
 ul{
     padding-bottom: 2vw;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: lawngreen;
+    text-decoration: underline;
 }
